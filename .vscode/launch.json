@@ -1,0 +1,32 @@
+// {
+//   // Use IntelliSense to learn about possible attributes.
+//   // Hover to view descriptions of existing attributes.
+//   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//   "version": "0.2.0",
+//   "configurations": [
+//       {
+//           "name": "Realogy Web",
+//           "request": "launch",
+//           "type": "dart",
+//           "args": ["-d", "chrome","--web-port", "8080"],
+//       }
+//   ]
+// }
+
+{
+  "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Simpsons Viewer",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "simpsons", "-t", "lib/main_simpsons.dart"],
+        },
+        {
+            "name": "Wire Viewer",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "wire", "-t", "lib/main_wire.dart"],
+        },
+    ]
+}
