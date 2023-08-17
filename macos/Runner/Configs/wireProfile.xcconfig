@@ -1,7 +1,0 @@
-#include "../../Flutter/wireProfile.xcconfig"
-#include "Warnings.xcconfig"
-
-FLUTTER_TARGET=lib/main_wire.dart
-ASSET_PREFIX=wire
-BUNDLE_NAME=The Wire Character Viewer
-BUNDLE_DISPLAY_NAME=The Wire Character Viewer

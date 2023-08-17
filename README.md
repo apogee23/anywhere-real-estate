@@ -1,16 +1,13 @@
 # realogy
 
-A new Flutter project.
+A chatacter viewing application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Run "flutter pub get"
 
-A few resources to get you started if this is your first Flutter project:
+To run the Simpsons version:
+- flutter run --flavor simpsons -t lib/main_simpsons.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run The Wire version:
+- flutter run --flavor wire -t lib/main_wire.dart

@@ -26,10 +26,10 @@ class MetaModel {
   final String srcName;
   final SrcOptions srcOptions;
   final dynamic srcUrl;
-  final String status;
+  final String? status;
   final String tab;
   final List<String> topic;
-  final int unsafe;
+  final int? unsafe;
 
   MetaModel({
     required this.attribution,

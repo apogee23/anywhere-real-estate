@@ -508,30 +508,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  intercom_flutter:
-    dependency: "direct main"
-    description:
-      name: intercom_flutter
-      sha256: c8571cf9facfdf60922a865d45bde9b2a1bf9f2463226c80252e8907d158e8c0
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.6.5"
-  intercom_flutter_platform_interface:
-    dependency: transitive
-    description:
-      name: intercom_flutter_platform_interface
-      sha256: "54c27b333eaef04eea4c2cc6866949998c3813a1f7979c698e39045684a8bd55"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.3"
-  intercom_flutter_web:
-    dependency: transitive
-    description:
-      name: intercom_flutter_web
-      sha256: "898c9dcc2dfbadd23771271e6f42e5375b86255b99fcc5547379c75980077c13"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.3"
   intl:
     dependency: "direct main"
     description:
@@ -828,6 +804,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.6"
+  searchable_listview:
+    dependency: "direct main"
+    description:
+      name: searchable_listview
+      sha256: c46333ee1eea6fa6dd1b1dafeb845748e3fb08949ca842056cb3b057a6d7ec80
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.0"
   share_plus:
     dependency: "direct main"
     description:
@@ -1065,14 +1049,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.1"
-  theme_provider:
-    dependency: "direct main"
-    description:
-      name: theme_provider
-      sha256: "6a2839ee1bd539ceb789f25ea9696fe90f9dfad28e3228f209b8ff9255c58099"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.6.0"
   typed_data:
     dependency: transitive
     description:

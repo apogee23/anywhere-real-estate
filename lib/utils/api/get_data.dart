@@ -1,8 +1,9 @@
 import 'package:http/http.dart' as http;
+import 'package:realogy/flavors.dart';
 
 Future<http.Response> getData({
-  required String authority,
-  required String endpoint,
+  required String url,
+  // required String endpoint,
   Map<String, dynamic>? queryParameters,
 }) async {
   try {
@@ -12,17 +13,11 @@ Future<http.Response> getData({
       // 'Authorization': "Bearer ${userId ?? ""}",
     };
 
-    print(Uri.https(
-      authority,
-      "$endpoint/",
-      queryParameters,
+    print(Uri.parse(
+      url,
     ).toString());
     return http.get(
-      Uri.https(
-        authority,
-        "$endpoint/",
-        queryParameters,
-      ),
+      Uri.parse(url),
       // headers: headers,
     );
   } catch (ex) {

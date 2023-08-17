@@ -2,6 +2,7 @@ flavors:
   simpsons:
     app:
       name: "Simpsons Character Viewer"
+      icon: "assets/icon/icon.png"
 
     android:
       applicationId: "com.simpsons.viewer"  
@@ -12,6 +13,7 @@ flavors:
   wire:
     app:
       name: "The Wire Character Viewer"
+      icon: "assets/icon/icon.png"
   
     android:
       applicationId: "com.wire.viewer"  

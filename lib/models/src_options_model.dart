@@ -4,14 +4,14 @@ class SrcOptions {
   final int isMediawiki;
   final int isWikipedia;
   final String language;
-  final String minAbstractLength;
+  final String? minAbstractLength;
   final int skipAbstract;
   final int skipAbstractParen;
-  final String skipEnd;
+  final String? skipEnd;
   final int skipIcon;
   final int skipImageName;
   final String skipQr;
-  final String sourceSkip;
+  final String? sourceSkip;
   final String srcInfo;
 
   SrcOptions({

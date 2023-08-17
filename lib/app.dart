@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:realogy/screens/main-screens/home_screen.dart';
+import 'package:realogy/screens/list_screen.dart';
 import 'flavors.dart';
 
 class App extends StatelessWidget {
@@ -9,12 +9,12 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: F.name,
+      title: F.title,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: _flavorBanner(
-        child: HomeScreen(),
+        child: const ListScreen(),
         show: kDebugMode,
       ),
     );
@@ -30,7 +30,7 @@ class App extends StatelessWidget {
               location: BannerLocation.topStart,
               message: F.name,
               color: Colors.green.withOpacity(0.6),
-              textStyle: TextStyle(
+              textStyle: const TextStyle(
                   fontWeight: FontWeight.w700,
                   fontSize: 12.0,
                   letterSpacing: 1.0),

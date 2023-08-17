@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:realogy/flavors.dart';
 import 'package:realogy/utils/crud/crud.dart';
 
 import 'models.dart';
@@ -116,8 +117,7 @@ class BaseModel {
 
   static Future<BaseModel?> read() async {
     return await readFuture(
-      authority: "",
-      endpoint: "https://api.duckduckgo.com/",
+      url: "https://api.duckduckgo.com/?q=${F.query}+characters&format=json",
       fromJson: (json) => BaseModel.fromJson(json as Map<String, dynamic>),
       defaultValue: null,
     );
